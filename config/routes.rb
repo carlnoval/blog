@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # From https://guides.rubyonrails.org/getting_started.html#say-hello-rails
+  get "/articles", to: "articles#index"
 end
